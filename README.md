@@ -1,2 +1,71 @@
-# RAGEVPN-LI
-A terminal VPN client created for Linux based on sing-box for Windows, I'll post it later with the .exe permission.
+# ⚡RAGEVPN-LI⚡
+<p align="center">
+  <img src="https://img.shields.io/badge/RAGEVPN--LI-RAGEVPN-red?style=for-the-badge">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ODINIZHAC2024/RAGEVPN-LI?style=flat-square">
+  <img src="https://img.shields.io/github/forks/ODINIZHAC2024/RAGEVPN-LI?style=flat-square">
+  <img src="https://img.shields.io/github/license/ODINIZHAC2024/RAGEVPN-LI?style=flat-square">
+  <img src="https://img.shields.io/badge/Linux-Supported-success?style=flat-square">
+  <img src="https://img.shields.io/badge/Windows-Planned-inactive?style=flat-square">
+  <img src="https://img.shields.io/badge/Powered%20by-sing--box-black?style=flat-square">
+</p>
+
+---
+<pre>
+██████╗  █████╗  ██████╗ ███████╗██╗   ██╗██████╗ ███╗   ██╗
+██╔══██╗██╔══██╗██╔════╝ ██╔════╝██║   ██║██╔══██╗████╗  ██║
+██████╔╝███████║██║  ███╗█████╗  ██║   ██║██████╔╝██╔██╗ ██║
+██╔══██╗██╔══██║██║   ██║██╔══╝  ██║   ██║██╔══██╗██║╚██╗██║
+██║  ██║██║  ██║╚██████╔╝███████╗╚██████╔╝██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝</pre>
+
+**RAGEVPN-LI** is a terminal-based VPN client for Linux built on top of **sing-box**.  
+The project is designed as a universal, minimalistic, and extensible VPN frontend with support for modern proxy protocols.
+
+> 🖥️ A Windows GUI version (`.exe`) will be released later.
+
+---
+
+## ✨ Features
+
+- 📟 Terminal user interface (TUI, curses)
+- 🌐 Supported protocols:
+  - **VLESS**
+  - **Shadowsocks (SS)**
+  - **Trojan**
+  - **VMess**
+  - **SOCKS5**
+- 🔗 Connection via standard links (`vless://`, `ss://`, `trojan://`, etc.)
+- 👤 Profile manager
+- 🔄 Auto reconnect
+- 📊 RX / TX traffic monitoring
+- 🧠 Automatic protocol detection
+- 🧩 Clean architecture (frontend + sing-box)
+- 🚫 No hardcoded servers
+- ⚡ Minimal dependencies
+
+---
+
+## 🧠 Architecture
+
+RAGEVPN-LI **does not implement VPN protocols itself**.  
+It works as:
+
+> **A TUI controller and configuration manager for sing-box**
+
+This makes the project secure, maintainable, and easy to extend.
+
+---
+
+## 📦 Dependencies
+
+### System
+```bash
+sudo apt install python3 python3-pip
+```
+### Python
+```bash
+pip install psutil
+```
