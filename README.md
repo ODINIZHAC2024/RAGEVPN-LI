@@ -69,3 +69,47 @@ sudo apt install python3 python3-pip
 ```bash
 pip install psutil
 ```
+### VPN Core
+Install sing-box and make sure it is available in $PATH:
+```
+sing-box version
+```
+---
+
+### 🚀 Installation
+```
+git clone https://github.com/ODINIZHAC2024/RAGEVPN-LI.py
+cd RAGEVPN-LI
+chmod +x ragevpn.py
+./ragevpn.py
+```
+---
+
+### 🖱️ Usage
+
+1. Launch the client
+
+
+2. Add a profile by pasting a connection link:
+```
+vless://...
+ss://...
+trojan://...
+```
+3. Select a profile
+4. VPN starts automatically via sing-box
+5. Monitor connection status and traffic in the terminal
+
+---
+
+### Exit:
+<pre>
+Ctrl + C
+</pre>
+
+---
+
+### 📣 Community
+
+📢 **Official Telegram channel**:
+👉 *https://t.me/RAGEVPN_N1*
