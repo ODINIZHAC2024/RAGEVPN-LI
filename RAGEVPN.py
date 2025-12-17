@@ -1063,7 +1063,7 @@ def about_screen(stdscr):
         "• Advanced routing rules",
         "",
         "Telegram: @RAGEVPN_N1",
-        "GitHub: github.com/ragevpn/pro",
+        "GitHub: github.com/ODINIZHAC2024/RAGEVPN-LI",
         "",
         "⚡ RAGE MODE: ACTIVATED ⚡"
     ]
