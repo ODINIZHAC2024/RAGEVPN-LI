@@ -78,7 +78,7 @@ sing-box version
 
 ### 🚀 Installation
 ```
-git clone https://github.com/ODINIZHAC2024/RAGEVPN-LI.py
+git clone https://github.com/ODINIZHAC2024/RAGEVPN-LI
 cd RAGEVPN-LI
 chmod +x ragevpn.py
 ./ragevpn.py
