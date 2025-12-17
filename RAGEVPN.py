@@ -31,7 +31,7 @@ CONFIG = os.path.join(BASE, "config.json")
 LOG_FILE = os.path.join(BASE, "ragevpn.log")
 CACHE = os.path.join(BASE, "cache")
 TG = "https://t.me/RAGEVPN_N1"
-GITHUB = "https://github.com/"
+GITHUB = "https://github.com/ODINIZHAC2024/RAGEVPN-LI/"
 
 # Colors
 COLOR_RED = 1
