@@ -80,8 +80,8 @@ sing-box version
 ```
 git clone https://github.com/ODINIZHAC2024/RAGEVPN-LI
 cd RAGEVPN-LI
-chmod +x ragevpn.py
-./ragevpn.py
+chmod +x RAGEVPN.py
+./RAGEVPN.py
 ```
 ---
 
